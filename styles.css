@@ -1,0 +1,56 @@
+body {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    background-color: rgb(245, 225, 205);
+}
+
+.header, .footer {
+    text-align: center;
+    font-family: "Suez One", serif;
+}
+
+table {
+    border: 10px solid rgb(245, 225, 205);
+    background-color: rgb(245, 225, 205);
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Heebo', sans-serif;
+    color:rgb(245, 225, 205)
+}
+
+thead {
+    background-color: rgb(117, 83, 49);  
+}
+
+th {
+    border: 5px solid rgb(245, 225, 205);
+    font-weight: bold;
+}
+
+td {
+    border: 5px solid rgb(245, 225, 205);
+    background-color: rgb(163, 129, 94);
+    font-weight: 300;
+}
+
+.link {
+    color:rgb(163, 129, 94);
+}
+
+.link :hover {
+    color: rgb(182, 107, 33);
+}
+
+.link :visited {
+    color: rgb(117, 83, 49);
+}
+
+#first-row {
+    width: 18%;
+}
+
+#faith {
+    font-size: 13px;
+    line-height: 1;
+}
